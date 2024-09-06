@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  .layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .seat-layout {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 10px;
+  }
+  
+  .seat {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .seat.booked {
+    background-color: red;
+    color: white;
+  }
+  
+  .seat.available {
+    background-color: green;
+  }
+  
+  .seat-number {
+    font-weight: bold;
+  }
+  
+  .row-number {
+    font-style: italic;
+  }
+  
